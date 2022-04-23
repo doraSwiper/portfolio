@@ -14,17 +14,25 @@
     <!-- Navbar Section Start -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
-            <div class="flex items-center justify-evenly relative">
-                <div class="px-2">
+            <div class="flex items-center px-10 relative lg:px-16">
+                <div class="px-4">
                     <a href="#home" class="font-bold text-lg block py-6 text-primary">Andika</a>
                 </div>
                 <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 md:hidden">
                         <span class="hamburger-line origin-top-left"></span>
                         <span class="hamburger-line"></span>
                         <span class="hamburger-line origin-top-left"></span>
                     </button>
-
+                    
+                    <nav id="nav" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[170px] w-full top-full right-4 md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none">
+                        <ul class="block absolute md:flex md:right-0 md:top-4">
+                            <li class="group"><a href="#Home" class="navbar">Home</a></li>
+                            <li class="group"><a href="#Home" class="navbar">About</a></li>
+                            <li class="group"><a href="#Home" class="navbar">OurWork</a></li>
+                            <li class="group"><a href="#Home" class="navbar">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
