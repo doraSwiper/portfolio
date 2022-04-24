@@ -5,13 +5,10 @@ let nav = document.querySelector('#nav');
 
 hamburger.onclick = (evt) => {
    hamburger.classList.toggle('hamburger-active');
-   if(nav.classList[0] === 'hidden'){
-      nav.classList.remove('hidden');
-      nav.classList.add('block');
-   }else {
-      nav.classList.remove(nav.classList[0]);
-      nav.classList.add('hidden');
-   }
+   nav.classList.toggle('hidden');
+   nav.classList.forEach((val) => {
+      (val !== 'hidden') ? nav.classList.add('block') : nav.classList.remove('block');
+   });
 }
 
 // Nacbar Scroll

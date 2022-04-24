@@ -4,7 +4,8 @@ module.exports = {
     extend: {},
     colors : {
       primary: '#2dd4bf',
-      dark: '#1f2937'
+      dark: '#334155',
+      secondary: '#64748b'
     }
   },
   plugins: [],
