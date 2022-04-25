@@ -817,10 +817,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 7rem;
 }
 
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -965,11 +961,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(24 23 23 / var(--tw-border-opacity));
 }
 
-.hover\:border-\[\#EA4335\]:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(234 67 53 / var(--tw-border-opacity));
-}
-
 .hover\:bg-\[\#25D366\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(37 211 102 / var(--tw-bg-opacity));
@@ -988,11 +979,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-\[\#181717\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(24 23 23 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-\[\#EA4335\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 67 53 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#fff\]:hover {
