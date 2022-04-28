@@ -571,6 +571,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 50%;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -648,6 +660,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -682,6 +698,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-\[170px\] {
@@ -810,6 +830,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-8 {
   padding: 2rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-4 {
@@ -1151,6 +1175,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: static;
   }
 
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:float-right {
     float: right;
   }
@@ -1185,6 +1213,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-0 {
     width: 0px;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
+  }
+
+  .md\:w-\[40px\] {
+    width: 40px;
+  }
+
+  .md\:w-\[60px\] {
+    width: 60px;
+  }
+
+  .md\:w-\[50px\] {
+    width: 50px;
   }
 
   .md\:max-w-full {
