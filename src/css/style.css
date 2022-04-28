@@ -532,7 +532,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .group:hover .navbar {
   --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity));
+  color: rgb(191 0 255 / var(--tw-text-opacity));
 }
 
 .invisible {
@@ -680,10 +680,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 83.333333%;
 }
 
-.w-0 {
-  width: 0px;
-}
-
 .w-9 {
   width: 2.25rem;
 }
@@ -782,7 +778,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(45 212 191 / var(--tw-bg-opacity));
+  background-color: rgb(191 0 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#eee\] {
@@ -941,7 +937,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity));
+  color: rgb(191 0 255 / var(--tw-text-opacity));
 }
 
 .text-dark {
@@ -1000,6 +996,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-\[\#555\] {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(85 85 85 / var(--tw-ring-opacity));
 }
 
 .ring-\[\#444\] {
@@ -1124,7 +1125,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity));
+  color: rgb(191 0 255 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-90:hover {
@@ -1138,7 +1139,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .focus\:ring-primary:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(45 212 191 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(191 0 255 / var(--tw-ring-opacity));
 }
 
 .peer:invalid ~ .peer-invalid\:visible {
@@ -1148,6 +1149,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:static {
     position: static;
+  }
+
+  .md\:float-right {
+    float: right;
   }
 
   .md\:mt-0 {
@@ -1176,6 +1181,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .md\:w-0 {
+    width: 0px;
   }
 
   .md\:max-w-full {
@@ -1218,6 +1227,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 }
 
